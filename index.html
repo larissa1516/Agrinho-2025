@@ -1,0 +1,38 @@
+<div class="search-container">
+    <input type="text" class="search-input" placeholder="O que você quer explorar? Do campo à cidade...">
+    <button class="search-button">
+        <i class="fas fa-seedling"></i> <i class="fas fa-building"></i> </button>
+</div>
+<div class="form-group">
+    <label for="nome" class="form-label">Seu Nome no Pomar Digital:</label>
+    <input type="text" id="nome" class="form-control" placeholder="Ex: João da Roça / Maria da Cidade" required>
+    <small class="validation-message"></small>
+</div>
+
+<div class="form-group">
+    <label for="email" class="form-label">E-mail para Notícias da Terra e Asfalto:</label>
+    <input type="email" id="email" class="form-control" placeholder="seu@conexao.com" required>
+    <small class="validation-message"></small>
+</div>
+<div class="tag-input-container">
+    <div class="tags-display">
+        </div>
+    <input type="text" class="tag-input" placeholder="Adicionar conexões (Ex: Feira Orgânica, Arte Urbana)...">
+</div>
+<div class="file-upload-container">
+    <input type="file" id="file-upload" class="hidden-file-input" accept="image/*">
+    <label for="file-upload" class="custom-file-upload">
+        <i class="fas fa-camera"></i> Registre sua Conexão!
+    </label>
+    <span id="file-name" class="file-name">Nenhuma foto de campo ou cidade selecionada</span>
+    <div id="file-preview" class="file-preview"></div> </div>
+<div class="star-rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="5 estrelas - Uma experiência exuberante!"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="4 estrelas - Florescendo com a conexão."></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="3 estrelas - Em equilíbrio."></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="2 estrelas - Precisa de mais cultivo."></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="1 estrela - Semente fraca."></label>
+</div>
+<p id="rating-feedback" class="rating-feedback"></p>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
